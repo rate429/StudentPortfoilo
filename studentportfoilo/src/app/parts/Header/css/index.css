@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Header {
+    @apply bg-[#0054a4] min-h-[67px] text-center
+}
+.HeaderText {
+    @apply pb-[65px] text-[56px]
+}
