@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ProfileSection {
+    @apply flex bg-white justify-center items-center flex-wrap flex-col; 
+}
+.pfp-image {
+    @apply rounded-[50%] object-cover;
+}

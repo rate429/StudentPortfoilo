@@ -4,8 +4,18 @@
 
 
 .Header {
-    @apply bg-[#0054a4] min-h-[67px] text-center
+    @apply bg-[#0054a4]  pt-[16px] pb-[16px] text-white flex flex-wrap flex-col justify-center items-center text-center;
 }
-.HeaderText {
-    @apply pb-[65px] text-[56px]
+body {
+    @apply bg-[#f4f4f4];
+ 
+}
+h1 {
+   @apply text-[37.5px] font-bold;
+}
+.first-line {
+    @apply flex text-red-600 font-bold text-[37.5px] justify-center;
+}
+.second-line {
+    @apply flex text-[15px] tracking-[15px] mt-[5px] text-red-600 justify-center;
 }

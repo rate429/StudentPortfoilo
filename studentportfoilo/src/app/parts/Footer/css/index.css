@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+footer {
+    @apply p-[20px] mt-[20px] text-white text-center bg-[#0054a4];
+}
+
+footer:hover {
+    @apply underline
+}
