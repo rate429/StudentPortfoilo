@@ -4,7 +4,7 @@ import "./css/index.css"
 
 export default function Footer() {
     return (
-        <footer>
+        <footer id="footerid">
             <ul>
                 <li>(254)-370-1214</li>
                 <li>276484@gcloud.tisd.org</li>

@@ -1,16 +1,30 @@
 import React from "react"
+import Image from "next/image"
+import logo from "../../../../public/temple-logo.png"
 import "./css/index.css"
 
 
 export default function Header() {
     return (<React.Fragment>
         <header className="Header">
-            <h1 className="HeaderText">
-                My portfilo
-                <span className="first-line"> Temple</span>
-                <span className="second-line"> Highschool </span>
+            <Image src={logo} alt="temple logo" width={200}height={400}></Image>
+            <h1 className="HeaderContent">
+                Temple
+                <span className="first-line">High School</span>
+                
             </h1>
-            <p className="abtMe">Hello, I'm Riley Rager, a high school student</p>
+            <nav>
+                <ul className="NavagationList">
+                    <li className="NavBtn"><a href="#AboutMeID">About me</a></li>
+                    <li className="NavBtn"><a href="#EducationID">Education</a></li>
+                    <li className="NavBtn"><a href="#skillsID">Skills</a></li>
+                    <li className="NavBtn"><a href="#projectid">Projects</a></li>
+                    <li className="NavBtn"><a href="#footerid">Contact</a></li>
+
+
+                </ul>
+            </nav>
+            
         </header>
         
         </React.Fragment>

@@ -13,8 +13,8 @@ export default function Home() {
       <ProfileSection></ProfileSection>
       <AboutMeSection></AboutMeSection>
       <EducationSection></EducationSection>
-      <ProjectSection></ProjectSection>
       <SkillsSection></SkillsSection>
+      <ProjectSection></ProjectSection>
       <Footer></Footer>
     </>
 

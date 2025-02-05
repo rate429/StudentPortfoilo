@@ -6,7 +6,7 @@ import "./css/index.css"
 export default function EducationSection() {
     return (
         <React.Fragment>
-            <section className="EducationSection">
+            <section className="EducationSection" id="EducationID">
                 <h2 className="SectionTitle">Education</h2>
                 <ul>
                     <li>Elementry</li>

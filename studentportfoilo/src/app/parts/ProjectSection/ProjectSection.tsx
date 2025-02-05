@@ -6,7 +6,7 @@ import "./css/index.css"
 export default function ProjectSection() {
     return (
         <React.Fragment>
-            <section className="ProjectSection">
+            <section className="ProjectSection" id="projectid">
                 <h2 className="SectionTitle">Projects</h2>
                 <ul>
                     <li>This portfilo website.</li>

@@ -6,7 +6,7 @@ import "./css/index.css"
 export default function SkillsSection() {
     return (
         <React.Fragment>
-            <section className="SkillsSection">
+            <section className="SkillsSection" id="skillsID">
                 <h2 className="SectionTitle">Skills</h2>
                 <ul>
                     <li>Tailwind css</li>

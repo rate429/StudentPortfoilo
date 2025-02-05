@@ -5,17 +5,29 @@
 
 .Header {
     @apply bg-[#0054a4]  pt-[16px] pb-[16px] text-white flex flex-wrap flex-col justify-center items-center text-center;
+    font-family: Arial, Helvetica, sans-serif
 }
 body {
     @apply bg-[#f4f4f4];
  
 }
-h1 {
-   @apply text-[37.5px] font-bold;
+.HeaderContent {
+   @apply text-[34.5px] font-bold uppercase mt-2;
+
 }
 .first-line {
-    @apply flex text-red-600 font-bold text-[37.5px] justify-center;
+    @apply flex font-bold text-[28.5px] justify-center tracking-[10px] uppercase;
 }
-.second-line {
-    @apply flex text-[15px] tracking-[15px] mt-[5px] text-red-600 justify-center;
+
+.NavagationList {
+    @apply inline-flex
 }
+
+.NavBtn {
+    @apply flex w-[180px] h-[40px] m-[10px] uppercase font-bold justify-center items-center rounded-md;
+}
+
+.NavBtn:hover {
+    @apply text-red-600 duration-[200ms]
+}
+

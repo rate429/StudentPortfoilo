@@ -5,7 +5,7 @@ import "./css/index.css"
 export default function ProfileSection() {
     return (
         <React.Fragment>
-        <section className="ProfileSection">
+        <section className="ProfileSection" id="profileid">
             <h2>Riley Rager</h2>
             <Image className="pfp-image" src={pfp} height={125} width={125} alt="Riley Rager"></Image>
         </section>
