@@ -2,12 +2,15 @@ import React from "react"
 import Image from "next/image"
 import logo from "../../../../public/temple-logo.png"
 import "./css/index.css"
+import Link from "next/link"
 
 
 export default function Header() {
     return (<React.Fragment>
         <header className="Header">
-            <Image src={logo} alt="temple logo" width={200}height={400}></Image>
+        <Link href="https://www.tisd.org">
+            <Image src={logo} alt="temple logo" width={200}height={400} ></Image>
+        </Link>
             <h1 className="HeaderContent">
                 Temple
                 <span className="first-line">High School</span>
